@@ -152,5 +152,4 @@ def train_model(start_epoch=0,EPOCHS=300):
     print(f"Best Validation IoU: {best_val_iou:.4f}")
     print(f"Best Validation Dice: {best_val_dice:.4f}")
 
-if __name__ == "__main__":
-    train_model(start_epoch=0, EPOCHS=150)  #for better training, train till 300 is suggested
+train_model(start_epoch=0, EPOCHS=150)  #for better training, train till 300 is suggested
