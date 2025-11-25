@@ -4,7 +4,7 @@
 commands to run the code(ofcouse you should have access to the dataset via Kaggle login credentials):
 1. Clone the repository
    ```bash
-   git clone 
+   git clone https://github.com/saikaushhikp/DL-Kaggle.git
    ```
 2. Navigate to the repository folder
    ```bash
