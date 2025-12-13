@@ -1,10 +1,10 @@
 import kagglehub
-from google.colab import drive
 import os
 
 def setup_and_download():
     # Mount Drive
     try:
+        from google.colab import drive
         drive.mount('/content/drive')
     except Exception:
         pass
