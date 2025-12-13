@@ -5,8 +5,8 @@ from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 import math
-
-from models import MFNet
+import torch.nn as nn
+from models import MFNet, ConvBnAct, ResidualConv, SEBlock, MiniInceptionRes, 
 from Dataset_and_utils import MultiSpectralDataset, combined_loss, iou_score, dice_loss
 
 
