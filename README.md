@@ -1,14 +1,14 @@
-# DL-Kaggle
+# DL-MultiSpectral-Image-Segmentation
  Contains implementation of the Kaggle competition conducted as a part of the DL course work here at IIT Hyderabad
 
 commands to run the code(ofcouse you should have access to the dataset via Kaggle login credentials):
 1. Clone the repository
    ```bash
-   git clone https://github.com/saikaushhikp/DL-Kaggle.git
+   git clone https://github.com/saikaushhikp/DL-MultiSpectral-Image-Segmentation-Kaggle_Task.git
    ```
 2. Navigate to the repository folder
    ```bash
-   cd DL-Kaggle
+   cd DL-MultiSpectral-Image-Segmentation-Kaggle_Task
    ```
 3. Run the training scripts (can be completely run via the [`Note-book.ipynb`](Note-book.ipynb) as well)
    ```bash
@@ -16,5 +16,4 @@ commands to run the code(ofcouse you should have access to the dataset via Kaggl
    python3 Train.py
    # to make predictions on test data
    python3 Inference.py
-
    ```
