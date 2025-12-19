@@ -4,12 +4,11 @@ import pandas as pd
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from models import MFNet
+from models import MFNet, ConvBnAct, ResidualConv, SEBlock, MiniInceptionRes
 from Dataset_and_utils import MultiSpectralDataset
 
 def run_inference(test_loader, model, device):
         
-
     use_model_for_test = model #inference_model
     use_model_for_test.eval()
 

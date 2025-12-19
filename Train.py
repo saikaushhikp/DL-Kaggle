@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 import math
 import torch.nn as nn
-from models import MFNet, ConvBnAct, ResidualConv, SEBlock, MiniInceptionRes, 
+from models import MFNet, ConvBnAct, ResidualConv, SEBlock, MiniInceptionRes
 from Dataset_and_utils import MultiSpectralDataset, combined_loss, iou_score, dice_loss
 
 
